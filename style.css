@@ -1,0 +1,186 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #330c2f;
+    background: linear-gradient(156deg, rgba(51, 12, 47, 1) 65%, rgba(0, 0, 0, 1) 100%);
+    color: #C2C2C2;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+header {
+    padding: 2em;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 66%, rgba(51, 12, 47, 1) 100%);
+    height: 38vh;
+    align-items: center;
+}
+
+.header__priLinha {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header__p {
+    display: inline;
+    margin: 0 2em;
+    font-size: 25px;
+}
+
+.header__a {
+    text-decoration: none;
+    color: #C2C2C2;
+}
+
+.header__logo {
+
+    width: 5%;
+}
+
+.header__segLinha {
+    text-align: center;
+    align-items: center;
+}
+
+.header__h1 {
+    margin: 1em 0;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+.carrosel__p {
+    text-align: center;
+    margin: 2em 0;
+    font-size: 2em;
+}
+
+.swiper {
+    width: 1000px;
+    height: 400px;
+    margin: 0.5em;
+}
+
+.carrosel__img {
+    border-radius: 20px 0px;
+    border: #C2C2C2 5px solid;
+}
+
+.sobre {
+    display: flex;
+    padding: 50px 400px;
+    align-items: center;
+    /* background: rgb(51,12,47);
+background: linear-gradient(156deg, rgba(51,12,47,1) 0%, rgba(0,0,0,1) 100%); */
+}
+
+.sobre__img {
+    border: #C2C2C2 2px outset;
+    height: 70%;
+}
+
+.sobre__texto {
+    padding: 0 2em;
+    /* text-align: center; */
+}
+
+.sobre__h2 {
+    margin: 2em 0;
+    font-size: 40px;
+    text-align: center;
+}
+
+.sobre__ps {
+    padding: 0 3em;
+    font-size: 30px;
+
+}
+
+.p2 {
+    padding: 1em 0;
+}
+
+.contato {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #7067CF;
+    color: white;
+    padding: 2em 0;
+}
+
+
+.info__tel {
+    margin: 2.5em 0;
+}
+
+.info__endereco {
+    margin-top: 2.5em;
+}
+
+.contato__msn {
+    display: flex;
+    flex-direction: column;
+}
+
+.contato__msn,
+.contato__informacoes {
+    margin: 0 3em;
+}
+
+.tel {
+    margin: 1em 0;
+}
+
+.input {
+    margin: 1em 0 0 0;
+    height: 2em;
+    width: 250px;
+    padding: 10px 10px;
+    color: #ffffff;
+    border-radius: 38px;
+    border: #ffffff 5px solid;
+    background: none;
+}
+
+.input::placeholder {
+    color: #b8b8b8;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.link__msn {
+    text-decoration: none;
+}
+
+.enviar__p {
+    border: #ffffff 5px solid;
+    color: #ffffff;
+    text-align: center;
+    padding: 5px;
+    border-radius: 25px;
+    text-decoration: none;
+    margin: 1.5em auto;
+    background-color: #330c2f;
+    font-size: 25px;
+    width: 200px;
+}
+
+footer {
+    text-align: center;
+    background: rgb(51, 12, 47);
+    background: linear-gradient(0deg, rgba(51, 12, 47, 1) 58%, rgba(112, 103, 207, 1) 100%);
+    color: rgba(112, 103, 207, 0.54);
+    padding: 4em 0;
+}
+
+.footer__img {
+    width: 5%;
+    padding-bottom: 1em;
+}
